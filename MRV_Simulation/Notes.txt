@@ -1,0 +1,10 @@
+Descrição: Programa projetado para estudo de desenvolvimento de APIs, testes unitários e injeção de dependência. Simula sistema de apresentação, compra/venda de empreendimentos e controle de clientes.
+Arquivos presentes: 
+// Adicionar estrutura de arquivos e suas funcionalidades
+Melhorias para serem executadas:
+// Adicionar próximas implementações / pontos de estudo 
+Questões levantadas durante o desenvolvimento:
+Dado o uso de banco de dados em memória, com iteração no código do controller, como faço para definir uma interface a fim de desenvolver os mocks para os testes de unidade?
+Consigo utilizar outros parâmetros como chave para o banco em memória?
+
+
