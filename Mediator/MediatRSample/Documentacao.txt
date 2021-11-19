@@ -1,0 +1,11 @@
+Tutorial base: https://www.treinaweb.com.br/blog/mediator-pattern-com-mediatr-no-asp-net-core
+O programa, em python, utilizado para manipulação da API se encontra um nível acima do diretório raiz do programa.
+
+Modificações foram necessárias para o funcionamento pleno do programa.
+Adição de atributo "Quantidade" para ser utilizado como controle de ids para adição de novos objetos no repositório.
+Problema causado pela tentativa de adição de nvo objeto apresentando o mesmo id que anteriores.
+
+Adição de retorno do tipo Pessoa, para a task add, por espera desse tipo de retorno por método da classe createPessoaCommand.
+
+Problemas ainda não solucionados:
+Apesar de entrada de ids para exclusão que não correspondem a itens válidos, a mensagem de retorno é positiva.
