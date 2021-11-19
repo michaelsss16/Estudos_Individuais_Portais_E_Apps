@@ -28,3 +28,33 @@ C:\Users\micha\OneDrive\Área de Trabalho\Projetos\ProgramasCSharp\Mediator\Medi
 C:\Users\micha\OneDrive\Área de Trabalho\Projetos\ProgramasCSharp\Mediator\MediatRSample\obj\Debug\net5.0\MediatRSample.pdb
 C:\Users\micha\OneDrive\Área de Trabalho\Projetos\ProgramasCSharp\Mediator\MediatRSample\obj\Debug\net5.0\MediatRSample.genruntimeconfig.cache
 C:\Users\micha\OneDrive\Área de Trabalho\Projetos\ProgramasCSharp\Mediator\MediatRSample\obj\Debug\net5.0\MediatRSample.csproj.AssemblyReference.cache
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\bin\Debug\net5.0\appsettings.json
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\bin\Debug\net5.0\MediatRSample.exe
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\bin\Debug\net5.0\MediatRSample.deps.json
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\bin\Debug\net5.0\MediatRSample.runtimeconfig.json
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\bin\Debug\net5.0\MediatRSample.runtimeconfig.dev.json
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\bin\Debug\net5.0\MediatRSample.dll
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\bin\Debug\net5.0\ref\MediatRSample.dll
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\bin\Debug\net5.0\MediatRSample.pdb
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\bin\Debug\net5.0\MediatR.dll
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\obj\Debug\net5.0\MediatRSample.csproj.AssemblyReference.cache
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\obj\Debug\net5.0\MediatRSample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\obj\Debug\net5.0\MediatRSample.AssemblyInfoInputs.cache
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\obj\Debug\net5.0\MediatRSample.AssemblyInfo.cs
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\obj\Debug\net5.0\MediatRSample.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\obj\Debug\net5.0\MediatRSample.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\obj\Debug\net5.0\MediatRSample.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\obj\Debug\net5.0\scopedcss\bundle\MediatRSample.styles.css
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\obj\Debug\net5.0\staticwebassets\MediatRSample.StaticWebAssets.Manifest.cache
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\obj\Debug\net5.0\MediatRSample.RazorTargetAssemblyInfo.cache
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\obj\Debug\net5.0\MediatRSample.csproj.CopyComplete
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\obj\Debug\net5.0\MediatRSample.dll
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\obj\Debug\net5.0\ref\MediatRSample.dll
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\obj\Debug\net5.0\MediatRSample.pdb
+C:\Users\micha\OneDrive\Área de Trabalho\Estudos individuais - Portais e apps\Estudos_Individuais_Portais_E_Apps\Mediator\MediatRSample\obj\Debug\net5.0\MediatRSample.genruntimeconfig.cache

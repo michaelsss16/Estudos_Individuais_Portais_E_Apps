@@ -20,5 +20,5 @@ namespace MediatRSample.Application.Notifications
         public int Idade { get; set; }
         public char Sexo { get; set; }
     }
-
+    
 }

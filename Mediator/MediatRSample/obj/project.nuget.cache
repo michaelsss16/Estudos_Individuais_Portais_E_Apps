@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YPBy3+caz63WIEcD0T9QU2NLtb2T480cQKoV4FAJz8WHCzkFZ8UnfrGWfqvmELxOC2ZnFeNhcrsDBiXL3M1ksw==",
+  "dgSpecHash": "KiDNh/1YtnrnEljIS0dsKILN4YDnwEb9xkUqa7FHeSdCwZ8e9Q4ROwF9hmsP12wxoQ3uH5HPDlJBYF5GCkvKwA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\micha\\OneDrive\\Área de Trabalho\\Projetos\\ProgramasCSharp\\Mediator\\MediatRSample\\MediatRSample.csproj",
+  "projectFilePath": "C:\\Users\\micha\\OneDrive\\Área de Trabalho\\Estudos individuais - Portais e apps\\Estudos_Individuais_Portais_E_Apps\\Mediator\\MediatRSample\\MediatRSample.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\micha\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",

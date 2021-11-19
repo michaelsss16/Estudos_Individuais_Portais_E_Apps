@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\micha\\OneDrive\\Área de Trabalho\\Projetos\\ProgramasCSharp\\Mediator\\MediatRSample\\MediatRSample.csproj": {}
+    "C:\\Users\\micha\\OneDrive\\Área de Trabalho\\Estudos individuais - Portais e apps\\Estudos_Individuais_Portais_E_Apps\\Mediator\\MediatRSample\\MediatRSample.csproj": {}
   },
   "projects": {
-    "C:\\Users\\micha\\OneDrive\\Área de Trabalho\\Projetos\\ProgramasCSharp\\Mediator\\MediatRSample\\MediatRSample.csproj": {
+    "C:\\Users\\micha\\OneDrive\\Área de Trabalho\\Estudos individuais - Portais e apps\\Estudos_Individuais_Portais_E_Apps\\Mediator\\MediatRSample\\MediatRSample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\micha\\OneDrive\\Área de Trabalho\\Projetos\\ProgramasCSharp\\Mediator\\MediatRSample\\MediatRSample.csproj",
+        "projectUniqueName": "C:\\Users\\micha\\OneDrive\\Área de Trabalho\\Estudos individuais - Portais e apps\\Estudos_Individuais_Portais_E_Apps\\Mediator\\MediatRSample\\MediatRSample.csproj",
         "projectName": "MediatRSample",
-        "projectPath": "C:\\Users\\micha\\OneDrive\\Área de Trabalho\\Projetos\\ProgramasCSharp\\Mediator\\MediatRSample\\MediatRSample.csproj",
+        "projectPath": "C:\\Users\\micha\\OneDrive\\Área de Trabalho\\Estudos individuais - Portais e apps\\Estudos_Individuais_Portais_E_Apps\\Mediator\\MediatRSample\\MediatRSample.csproj",
         "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\micha\\OneDrive\\Área de Trabalho\\Projetos\\ProgramasCSharp\\Mediator\\MediatRSample\\obj\\",
+        "outputPath": "C:\\Users\\micha\\OneDrive\\Área de Trabalho\\Estudos individuais - Portais e apps\\Estudos_Individuais_Portais_E_Apps\\Mediator\\MediatRSample\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
