@@ -31,11 +31,9 @@ namespace API
         {
 
             services.AddControllers();
-            services.AddSingleton<IClienteService>();
-            services.AddSingleton<IClienteRepository>();
-            services.AddTransient<Cliente>(DI => new Cliente());
-            //services.AddTransient<IClienteRepository>(DI => new ClienteRepository());
-            //services.AddTransient<IClienteService>(DI => new ClienteService());
+            services.AddSingleton<IClienteService, ClienteService>();
+            services.AddSingleton<IClienteRepository,ClienteRepository>();
+            services.AddTransient<ICliente, Cliente>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });

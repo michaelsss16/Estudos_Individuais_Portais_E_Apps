@@ -11,10 +11,10 @@ using Application.DTO;
 
 namespace Infrastructure.Services
 {
-    public class ClienteService
+    public class ClienteService:IClienteService
     {
         private readonly IClienteRepository _repository;
-        ClienteService(IClienteRepository repository) { 
+        public ClienteService(IClienteRepository repository) { 
             _repository = repository;
         }
 

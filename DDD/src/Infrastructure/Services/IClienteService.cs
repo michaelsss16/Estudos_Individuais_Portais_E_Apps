@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Infrastructure.Responses;
+using Domain.Entities;
+using Application.DTO;
 
 namespace Infrastructure.Services
 {
     public interface IClienteService
     {
-        public Task<AdicionarClienteResponse> AdicionarCliente(string nome, long cpf );
-        public Task<BuscarClientesResponse> BuscarTodosOsClientes();
+        public Task<string> AdicionarCliente(ClienteDTO request);
+        public Task<IEnumerable<Cliente>> BuscarTodosOsClientes();
     }
 }

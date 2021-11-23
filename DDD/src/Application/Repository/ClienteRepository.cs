@@ -9,11 +9,11 @@ using Domain.Entities;
 
 namespace Application.Repository
 {
-    public class ClienteRepository
+    public class ClienteRepository: IClienteRepository
     {
         int Quantidade = 0;
         private static Dictionary<int, Cliente> clientes= new Dictionary<int, Cliente>();
-
+        public ClienteRepository() { }
                 public async Task<IEnumerable<Cliente>>Get()
         {
             return await Task.Run(() => clientes.Values.ToList());
