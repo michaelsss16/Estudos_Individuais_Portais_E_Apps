@@ -34,8 +34,8 @@ namespace API
             services.AddSingleton<IClienteService>();
             services.AddSingleton<IClienteRepository>();
             services.AddTransient<Cliente>(DI => new Cliente());
-            services.AddTransient<IClienteRepository>(DI => new ClienteRepository());
-            services.AddTransient<IClienteService>(DI => new ClienteService());
+            //services.AddTransient<IClienteRepository>(DI => new ClienteRepository());
+            //services.AddTransient<IClienteService>(DI => new ClienteService());
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
