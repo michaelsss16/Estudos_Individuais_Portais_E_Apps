@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Infrastructure.Services;
+using Domain.Entities;
 
 namespace API.Controllers
 {
@@ -7,9 +9,15 @@ namespace API.Controllers
     [ApiController]
     public class ClientesController : ControllerBase
     {
+        private readonly IClienteService _Servico;
+        ClientesController(IClienteService servico) { 
+            _Servico= servico;
+        }
+
         [HttpGet]
         public string Get() {
-            return "Teste de retorno";
+            var Result = _Servico.BuscarTodosOsClientes();
+            return "Teste de retorno";   
         }
     }
 }

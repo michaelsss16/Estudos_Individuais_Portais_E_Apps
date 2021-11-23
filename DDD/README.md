@@ -3,4 +3,16 @@ API desenvolvida a partir do modelo apresentado, seguindo diretrizes do domain d
 Pontos de desenvolvimento :
 - Implementar serviço de cliente 
 - Implementar repositório  para cliente (depende da implementação do serviço)
+-utilizar os objetos de resposta no serviço de cliente 
+- realizar tratamento de erro para o serviço de cliente 
 - Validar a necessidade de uso dos atributos de json
+
+1. Camada de aplicação: responsável pelo projeto principal, pois é onde será desenvolvido os controladores e serviços da API. Tem a função de receber todas as requisições e direcioná-las a algum serviço para executar uma determinada ação.
+Possui referências das camadas Service e Domain.
+2. Camada de domínio: responsável pela implementação de classes/modelos, as quais serão mapeadas para o banco de dados, além de obter as declarações de interfaces, constantes, DTOs (Data Transfer Object) e enums.
+3. Camada de serviço: seria o “coração” do projeto, pois é nela que é feita todas as regras de negócio e todas as validações, antes de persistir os dados no banco de dados.
+Possui referências das camadas Domain, Infra.Data e Infra.CrossCutting.
+4. Camada de infraestrutura: é dividida em duas sub-camadas
+- Data: realiza a persistência com o banco de dados, utilizando, ou não, algum ORM.
+- Cross-Cutting: uma camada a parte que não obedece a hierarquia de camada. Como o próprio nome diz, essa camada cruza toda a hierarquia. Contém as funcionalidades que pode ser utilizada em qualquer parte do código, como, por exemplo, validação de CPF/CNPJ, consumo de API externa e utilização de alguma segurança.
+Possui referências da camada Domain.

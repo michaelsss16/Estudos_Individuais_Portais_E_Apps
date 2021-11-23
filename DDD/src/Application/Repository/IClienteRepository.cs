@@ -10,6 +10,7 @@ namespace Application.Repository.Interfaces
 {
     public interface IClienteRepository
     {
-        Task<Cliente> AdicionarCliente(ClienteDTO cliente);
+        Task<Cliente> Add(Cliente cliente);
+        Task<IEnumerable<Cliente>> Get();
     }
 }

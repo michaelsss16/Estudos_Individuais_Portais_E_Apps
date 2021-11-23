@@ -10,6 +10,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Infrastructure.Services;
+using Application.Repository.Interfaces;
+using Application.Repository;
+using Domain.Entities;
 
 namespace API
 {
@@ -27,6 +31,11 @@ namespace API
         {
 
             services.AddControllers();
+            services.AddSingleton<IClienteService>();
+            services.AddSingleton<IClienteRepository>();
+            services.AddTransient<Cliente>(DI => new Cliente());
+            services.AddTransient<IClienteRepository>(DI => new ClienteRepository());
+            services.AddTransient<IClienteService>(DI => new ClienteService());
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
