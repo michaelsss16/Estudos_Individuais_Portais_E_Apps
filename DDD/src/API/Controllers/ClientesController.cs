@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Infrastructure.Services;
 using Domain.Entities;
+using Application.DTO;
 
 namespace API.Controllers
 {
@@ -24,5 +25,14 @@ namespace API.Controllers
         {
             return Ok(await _Servico.BuscarTodosOsClientes());
         }
+
+        //post
+        [HttpPost]
+        public async Task<IActionResult> Post(ClienteDTO cliente)
+        {
+            var response = await _Servico.AdicionarCliente(cliente);
+            return Ok(response);
+        }
+
     }
 }
