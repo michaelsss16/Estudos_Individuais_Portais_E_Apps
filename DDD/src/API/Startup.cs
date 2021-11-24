@@ -31,9 +31,20 @@ namespace API
         {
 
             services.AddControllers();
+            //Services
             services.AddSingleton<IClienteService, ClienteService>();
+            services.AddSingleton<IEmpreendimentoComercialService, EmpreendimentoComercialService>();
+            services.AddSingleton<IEmpreendimentoMoradiaService, EmpreendimentoMoradiaService>();
+
+            //Repository
             services.AddSingleton<IClienteRepository, ClienteRepository>();
+            services.AddSingleton<IEmpreendimentoRepository<EmpreendimentoComercial>, EmpreendimentoComercialRepository>();
+            services.AddSingleton<IEmpreendimentoRepository<EmpreendimentoMoradia>, EmpreendimentoMoradiaRepository>();
+
+            //Objects
             services.AddTransient<ICliente, Cliente>();
+            services.AddTransient<IEmpreendimento, EmpreendimentoComercial>();
+            services.AddTransient<IEmpreendimento, EmpreendimentoMoradia>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });

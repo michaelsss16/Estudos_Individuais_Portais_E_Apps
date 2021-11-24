@@ -1,8 +1,12 @@
 # Informações gerais sobre projeto
 API desenvolvida a partir do modelo apresentado, seguindo diretrizes do domain driven design, com simulação  do sistema de compra e venda de empreendimentos imobiliários  e gestão de clientes.
 Pontos de desenvolvimento :
-- Implementar objetos de resposta para todos os métodos de tratamento de cliente
--utilizar os objetos de resposta no serviço de cliente 
+- Adicionar retorno de dados para busca por id 
+- Implementar objetos de resposta para todos os métodos de tratamento de objetos
+- Validar os códigos de retorno
+- Fazer os ajustes no código python para todos os métodos do sistema
+
+
 - realizar tratamento de erro para o serviço e repositorio de cliente 
 - Utilizar a classe de configuração/dependenciInjection para implementar a injeção de dependência 
 - Validar a necessidade de uso dos atributos de json
