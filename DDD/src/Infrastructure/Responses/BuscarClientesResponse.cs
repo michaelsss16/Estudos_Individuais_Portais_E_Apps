@@ -9,6 +9,6 @@ namespace Infrastructure.Responses
     public class BuscarClientesResponse
     {
         public string Status { get; set; }
-        public IEnumerable<dynamic>  Dados { get; set; }
+        public IEnumerable<dynamic> Dados { get; set; }
     }
 }

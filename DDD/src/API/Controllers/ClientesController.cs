@@ -16,8 +16,9 @@ namespace API.Controllers
     public class ClientesController : ControllerBase
     {
         private readonly IClienteService _Servico;
-        public ClientesController(IClienteService servico) { 
-            _Servico= servico;
+        public ClientesController(IClienteService servico)
+        {
+            _Servico = servico;
         }
 
         [HttpGet]

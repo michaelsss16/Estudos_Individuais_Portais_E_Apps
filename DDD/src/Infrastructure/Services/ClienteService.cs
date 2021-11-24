@@ -33,14 +33,16 @@ namespace Infrastructure.Services
         }
 
         //Atualizar cliente 
-        public async Task<string> AtualizarCliente( Cliente request) {
-            var cliente = new Cliente {Id=request.Id,Nome=request.Nome,  CPF= request.CPF, Identificador= Guid.NewGuid()};
-            var Response = await _Repository.Edit( cliente);
+        public async Task<string> AtualizarCliente(Cliente request)
+        {
+            var cliente = new Cliente { Id = request.Id, Nome = request.Nome, CPF = request.CPF, Identificador = Guid.NewGuid() };
+            var Response = await _Repository.Edit(cliente);
             return Response;
         }
 
         //Excluir cliente 
-        public async Task<string> ExcluirCliente(int id) {
+        public async Task<string> ExcluirCliente(int id)
+        {
             var Result = await _Repository.Delete(id);
             return Result;
         }

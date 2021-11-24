@@ -32,7 +32,7 @@ namespace API
 
             services.AddControllers();
             services.AddSingleton<IClienteService, ClienteService>();
-            services.AddSingleton<IClienteRepository,ClienteRepository>();
+            services.AddSingleton<IClienteRepository, ClienteRepository>();
             services.AddTransient<ICliente, Cliente>();
             services.AddSwaggerGen(c =>
             {
