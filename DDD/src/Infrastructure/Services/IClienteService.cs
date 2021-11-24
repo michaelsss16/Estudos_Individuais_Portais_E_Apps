@@ -12,6 +12,8 @@ namespace Infrastructure.Services
     public interface IClienteService
     {
         public Task<string> AdicionarCliente(ClienteDTO request);
-        public Task<IEnumerable<Cliente>> BuscarTodosOsClientes();
+        public Task<BuscarClientesResponse> BuscarTodosOsClientes();
+        public Task<string> AtualizarCliente(Cliente request);
+        public Task<string> ExcluirCliente(int id);
     }
 }

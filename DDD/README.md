@@ -1,10 +1,10 @@
 # Informações gerais sobre projeto
 API desenvolvida a partir do modelo apresentado, seguindo diretrizes do domain driven design, com simulação  do sistema de compra e venda de empreendimentos imobiliários  e gestão de clientes.
 Pontos de desenvolvimento :
-- Implementar serviço de cliente 
-- Implementar repositório  para cliente (depende da implementação do serviço)
+- Implementar objetos de resposta para todos os métodos de tratamento de cliente
 -utilizar os objetos de resposta no serviço de cliente 
-- realizar tratamento de erro para o serviço de cliente 
+- realizar tratamento de erro para o serviço e repositorio de cliente 
+- Utilizar a classe de configuração/dependenciInjection para implementar a injeção de dependência 
 - Validar a necessidade de uso dos atributos de json
 
 1. Camada de aplicação: responsável pelo projeto principal, pois é onde será desenvolvido os controladores e serviços da API. Tem a função de receber todas as requisições e direcioná-las a algum serviço para executar uma determinada ação.

@@ -34,5 +34,21 @@ namespace API.Controllers
             return Ok(response);
         }
 
+        //Put
+        [HttpPut]
+        public async Task<IActionResult> Put(Cliente cliente)
+        {
+            var response = await _Servico.AtualizarCliente(cliente);
+            return Ok(response);
+        }
+
+        //Delete
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var response = await _Servico.ExcluirCliente(id);
+            return Ok(response);
+        }
+
     }
 }

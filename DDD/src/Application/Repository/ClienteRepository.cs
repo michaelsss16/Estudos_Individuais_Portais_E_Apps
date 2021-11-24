@@ -26,6 +26,18 @@ namespace Application.Repository
             return cliente;
         }
 
+        //put
+        public async Task<string> Edit(Cliente cliente) { 
+            await Task.Run(()=> clientes.Remove(cliente.Id));
+            await Task.Run(()=> clientes.Add(cliente.Id, cliente));
+            return "Cliente atualizado com sucesso!";
+        }
+        // DELETE
+        public async Task<string> Delete(int id) {
+            await Task.Run(()=> clientes.Remove(id));
+            return "Cliente excluído com sucesso!";
+        }
+
 
 
     }

@@ -12,5 +12,8 @@ namespace Application.Repository.Interfaces
     {
         Task<Cliente> Add(Cliente cliente);
         Task<IEnumerable<Cliente>> Get();
+        Task<string> Delete(int id);
+        Task<string> Edit(Cliente cliente);
+
     }
 }
