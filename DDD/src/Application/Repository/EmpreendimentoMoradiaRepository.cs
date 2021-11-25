@@ -18,6 +18,13 @@ namespace Application.Repository
         {
             return await Task.Run(() => moradias.Values.ToList());
         }
+
+        public async Task<EmpreendimentoMoradia> GetById(int id)
+        {
+            return await Task.Run(() => moradias.GetValueOrDefault(id));
+        }
+
+
         public async Task<EmpreendimentoMoradia> Add(EmpreendimentoMoradia moradia)
         {
             moradia.Id = Quantidade;

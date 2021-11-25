@@ -32,6 +32,13 @@ namespace Infrastructure.Services
             return Resultado;
         }
 
+        public async Task<EmpreendimentoComercial> BuscarEmpreendimentoComercialPorId(int id)
+        {
+            var Resultado = await _Repository.GetById(id);
+            return Resultado;
+        }
+
+
         public async Task<string> AtualizarEmpreendimentoComercial(EmpreendimentoComercial request)
         {
             var empreendimento = new EmpreendimentoComercial { Id = request.Id, Nome = request.Nome, Valor = request.Valor, Area = request.Area };

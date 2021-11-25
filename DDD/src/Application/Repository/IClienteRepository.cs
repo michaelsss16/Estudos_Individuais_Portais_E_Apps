@@ -12,6 +12,7 @@ namespace Application.Repository.Interfaces
     {
         Task<Cliente> Add(Cliente cliente);
         Task<IEnumerable<Cliente>> Get();
+        Task<Cliente> GetById(int id);
         Task<string> Delete(int id);
         Task<string> Edit(Cliente cliente);
     }

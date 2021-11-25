@@ -27,6 +27,14 @@ namespace API.Controllers
             return Ok(await _Servico.BuscarTodosOsEmpreendimentosMoradia());
         }
 
+        // get id
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(int id)
+        {
+            return Ok(await _Servico.BuscarEmpreendimentoMoradiaPorId(id));
+        }
+
+
         //post
         [HttpPost]
         public async Task<IActionResult> Post(EmpreendimentoMoradiaDTO empreendimento)

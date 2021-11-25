@@ -32,6 +32,14 @@ namespace Infrastructure.Services
             return Resultado;
         }
 
+        public async Task<Cliente> BuscarClientePorId(int id)
+        {
+            var Resultado = await _Repository.GetById(id);
+            return Resultado;
+        }
+
+
+
         //Atualizar cliente 
         public async Task<string> AtualizarCliente(Cliente request)
         {

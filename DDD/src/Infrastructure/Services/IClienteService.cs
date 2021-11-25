@@ -13,6 +13,7 @@ namespace Infrastructure.Services
     {
         public Task<string> AdicionarCliente(ClienteDTO request);
         public Task<BuscarClientesResponse> BuscarTodosOsClientes();
+        public Task<Cliente> BuscarClientePorId(int id);
         public Task<string> AtualizarCliente(Cliente request);
         public Task<string> ExcluirCliente(int id);
     }

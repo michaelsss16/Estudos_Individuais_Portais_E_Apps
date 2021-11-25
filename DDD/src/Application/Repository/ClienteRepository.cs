@@ -18,6 +18,13 @@ namespace Application.Repository
         {
             return await Task.Run(() => clientes.Values.ToList());
         }
+
+        public async Task<Cliente> GetById(int id)
+        {
+            return await Task.Run(() => clientes.GetValueOrDefault(id));
+        }
+
+
         public async Task<Cliente> Add(Cliente cliente)
         {
             cliente.Id = Quantidade;

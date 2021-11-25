@@ -13,6 +13,7 @@ namespace Infrastructure.Services
     {
         public Task<string> AdicionarEmpreendimentoMoradia(EmpreendimentoMoradiaDTO request);
         public Task<BuscarEmpreendimentosResponse> BuscarTodosOsEmpreendimentosMoradia();
+        public Task<EmpreendimentoMoradia> BuscarEmpreendimentoMoradiaPorId(int id);
         public Task<string> AtualizarEmpreendimentoMoradia(EmpreendimentoMoradia request);
         public Task<string> ExcluirEmpreendimentoMoradia(int id);
     }

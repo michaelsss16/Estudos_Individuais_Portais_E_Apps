@@ -12,6 +12,7 @@ namespace Application.Repository.Interfaces
     {
         Task<T> Add(T empreendimento);
         Task<IEnumerable<T>> Get();
+        Task<T> GetById(int id);
         Task<string> Delete(int id);
         Task<string> Edit(T empreendimento);
     }

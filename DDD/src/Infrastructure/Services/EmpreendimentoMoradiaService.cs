@@ -32,6 +32,13 @@ namespace Infrastructure.Services
             return Resultado;
         }
 
+        public async Task<EmpreendimentoMoradia> BuscarEmpreendimentoMoradiaPorId(int id)
+        {
+            var Resultado = await _Repository.GetById(id);
+            return Resultado;
+        }
+
+
         public async Task<string> AtualizarEmpreendimentoMoradia(EmpreendimentoMoradia request)
         {
             var empreendimento = new EmpreendimentoMoradia { Id = request.Id, Nome = request.Nome, Valor = request.Valor, QuantidadeDeQuartos = request.QuantidadeDeQuartos };

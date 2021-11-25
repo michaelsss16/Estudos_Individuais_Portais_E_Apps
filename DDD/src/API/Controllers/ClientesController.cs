@@ -27,6 +27,14 @@ namespace API.Controllers
             return Ok(await _Servico.BuscarTodosOsClientes());
         }
 
+        //get_id
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(int id)
+        {
+            return Ok(await _Servico.BuscarClientePorId(id));
+        }
+
+
         //post
         [HttpPost]
         public async Task<IActionResult> Post(ClienteDTO cliente)
