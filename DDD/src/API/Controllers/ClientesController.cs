@@ -5,7 +5,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Infrastructure.Services;
+using Infrastructure.Repository;
+using Infrastructure.Repository.Interfaces;
 using Domain.Entities;
 using Application.DTO;
 
@@ -15,10 +16,10 @@ namespace API.Controllers
     [ApiController]
     public class ClientesController : ControllerBase
     {
-        private readonly IClienteService _Servico;
-        public ClientesController(IClienteService servico)
+        private readonly IClienteRepository _Servico;
+        public ClientesController(IClienteRepository  repository)
         {
-            _Servico = servico;
+            _Servico = repository;
         }
 
         [HttpGet]

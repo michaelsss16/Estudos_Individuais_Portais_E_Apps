@@ -33,7 +33,7 @@ print("Testes da API")
 # Testes de put
 #response = requests.put(UrlCliente, json = ClienteMichaelCompleto)
 #response = requests.put(UrlMoradia, json = CasaPequenaCompleto)
-response = requests.put(UrlComercial, json = LojaPequenaCompleto)
+#response = requests.put(UrlComercial, json = LojaPequenaCompleto)
 
 # testes de delete
 #response = requests.delete(UrlCliente + '/0')

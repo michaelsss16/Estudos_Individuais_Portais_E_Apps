@@ -10,10 +10,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Infrastructure.Services;
-using Application.Repository.Interfaces;
-using Application.Repository;
+using Infrastructure.Repository;
+using Infrastructure.Repository.Interfaces;
 using Domain.Entities;
+using Domain.Entities.Interfaces;
 
 namespace API
 {
@@ -31,15 +31,10 @@ namespace API
         {
 
             services.AddControllers();
-            //Services
-            services.AddSingleton<IClienteService, ClienteService>();
-            services.AddSingleton<IEmpreendimentoComercialService, EmpreendimentoComercialService>();
-            services.AddSingleton<IEmpreendimentoMoradiaService, EmpreendimentoMoradiaService>();
-
             //Repository
             services.AddSingleton<IClienteRepository, ClienteRepository>();
-            services.AddSingleton<IEmpreendimentoRepository<EmpreendimentoComercial>, EmpreendimentoComercialRepository>();
-            services.AddSingleton<IEmpreendimentoRepository<EmpreendimentoMoradia>, EmpreendimentoMoradiaRepository>();
+            services.AddSingleton<IEmpreendimentoComercialRepository, EmpreendimentoComercialRepository>();
+            services.AddSingleton<IEmpreendimentoMoradiaRepository, EmpreendimentoMoradiaRepository>();
 
             //Objects
             services.AddTransient<ICliente, Cliente>();

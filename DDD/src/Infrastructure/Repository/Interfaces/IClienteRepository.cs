@@ -7,9 +7,9 @@ using Infrastructure.Responses;
 using Domain.Entities;
 using Application.DTO;
 
-namespace Infrastructure.Services
+namespace Infrastructure.Repository.Interfaces
 {
-    public interface IClienteService
+    public interface IClienteRepository
     {
         public Task<string> AdicionarCliente(ClienteDTO request);
         public Task<BuscarClientesResponse> BuscarTodosOsClientes();

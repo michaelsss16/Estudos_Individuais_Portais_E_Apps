@@ -7,9 +7,9 @@ using Infrastructure.Responses;
 using Domain.Entities;
 using Application.DTO;
 
-namespace Infrastructure.Services
+namespace Infrastructure.Repository.Interfaces
 {
-    public interface IEmpreendimentoComercialService
+    public interface IEmpreendimentoComercialRepository
     {
         public Task<string> AdicionarEmpreendimentoComercial(EmpreendimentoComercialDTO request);
         public Task<BuscarEmpreendimentosResponse> BuscarTodosOsEmpreendimentosComerciais();

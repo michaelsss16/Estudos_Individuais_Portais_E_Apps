@@ -7,9 +7,9 @@ using Infrastructure.Responses;
 using Domain.Entities;
 using Application.DTO;
 
-namespace Infrastructure.Services
+namespace Infrastructure.Repository.Interfaces
 {
-    public interface IEmpreendimentoMoradiaService
+    public interface IEmpreendimentoMoradiaRepository
     {
         public Task<string> AdicionarEmpreendimentoMoradia(EmpreendimentoMoradiaDTO request);
         public Task<BuscarEmpreendimentosResponse> BuscarTodosOsEmpreendimentosMoradia();
