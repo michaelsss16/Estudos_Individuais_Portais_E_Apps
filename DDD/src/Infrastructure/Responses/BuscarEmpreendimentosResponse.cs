@@ -9,6 +9,7 @@ namespace Infrastructure.Responses
     public class BuscarEmpreendimentosResponse
     {
         public string Status { get; set; }
+
         public IEnumerable<dynamic> Dados { get; set; }
     }
 }

@@ -8,7 +8,6 @@ using Infrastructure.Repository.Interfaces;
 using Domain.Entities;
 using Application.DTO;
 
-
 namespace Infrastructure.Repository
 {
     public class ClienteRepository : IClienteRepository

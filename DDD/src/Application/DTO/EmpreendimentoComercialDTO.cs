@@ -8,9 +8,11 @@ using Domain.Entities;
 namespace Application.DTO
 {
     public class EmpreendimentoComercialDTO
-    {   
+    {
         public string Nome { set; get; }
+
         public double Valor { set; get; }
-public double Area { set; get; }
+
+        public double Area { set; get; }
     }
 }

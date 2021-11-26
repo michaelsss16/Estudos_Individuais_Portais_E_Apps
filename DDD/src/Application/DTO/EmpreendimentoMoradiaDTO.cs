@@ -10,7 +10,9 @@ namespace Application.DTO
     public class EmpreendimentoMoradiaDTO
     {
         public string Nome { set; get; }
+
         public double Valor { set; get; }
+
         public int QuantidadeDeQuartos { set; get; }
     }
 }
