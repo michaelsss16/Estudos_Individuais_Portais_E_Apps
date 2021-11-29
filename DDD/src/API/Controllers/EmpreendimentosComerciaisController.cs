@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -11,12 +12,12 @@ using Application.DTO;
 
 namespace API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/Empreendimentos/Comercial")]
     [ApiController]
-    public class ClientesController : ControllerBase
+    public class EmpreendimentosComerciaisController : ControllerBase
     {
-        private readonly IClienteRepository _Servico;
-        public ClientesController(IClienteRepository  repository)
+        private readonly IEmpreendimentoComercialRepository _Servico;
+        public EmpreendimentosComerciaisController(IEmpreendimentoComercialRepository repository)
         {
             _Servico = repository;
         }
@@ -24,30 +25,29 @@ namespace API.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            return Ok(await _Servico.BuscarTodosOsClientes());
+            return Ok(await _Servico.BuscarTodosOsEmpreendimentosComerciais());
         }
 
-        //get_id
+        // get id
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
         {
-            return Ok(await _Servico.BuscarClientePorId(id));
+            return Ok(await _Servico.BuscarEmpreendimentoComercialPorId(id));
         }
-
 
         //post
         [HttpPost]
-        public async Task<IActionResult> Post(ClienteDTO cliente)
+        public async Task<IActionResult> Post(EmpreendimentoComercialDTO empreendimento)
         {
-            var response = await _Servico.AdicionarCliente(cliente);
+            var response = await _Servico.AdicionarEmpreendimentoComercial(empreendimento);
             return Ok(response);
         }
 
         //Put
         [HttpPut]
-        public async Task<IActionResult> Put(Cliente cliente)
+        public async Task<IActionResult> Put(EmpreendimentoComercial empreendimento)
         {
-            var response = await _Servico.AtualizarCliente(cliente);
+            var response = await _Servico.AtualizarEmpreendimentoComercial(empreendimento);
             return Ok(response);
         }
 
@@ -55,7 +55,7 @@ namespace API.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var response = await _Servico.ExcluirCliente(id);
+            var response = await _Servico.ExcluirEmpreendimentoComercial(id);
             return Ok(response);
         }
 

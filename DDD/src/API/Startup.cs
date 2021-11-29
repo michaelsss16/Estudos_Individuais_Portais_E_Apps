@@ -8,8 +8,11 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
+using Infrastructure.Repository;
+using Infrastructure.Repository.Interfaces;
+using Domain.Entities;
+using Domain.Entities.Interfaces;
 
 namespace API
 {
@@ -27,6 +30,15 @@ namespace API
         {
 
             services.AddControllers();
+            //Repository
+            services.AddSingleton<IClienteRepository, ClienteRepository>();
+            services.AddSingleton<IEmpreendimentoComercialRepository, EmpreendimentoComercialRepository>();
+            services.AddSingleton<IEmpreendimentoMoradiaRepository, EmpreendimentoMoradiaRepository>();
+
+            //Objects
+            services.AddTransient<ICliente, Cliente>();
+            services.AddTransient<IEmpreendimento, EmpreendimentoComercial>();
+            services.AddTransient<IEmpreendimento, EmpreendimentoMoradia>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });

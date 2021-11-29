@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Responses
 {
-    public class BuscarClientesResponse
+    public class BuscarEmpreendimentosResponse
     {
         public string Status { get; set; }
+
         public IEnumerable<dynamic> Dados { get; set; }
     }
 }
